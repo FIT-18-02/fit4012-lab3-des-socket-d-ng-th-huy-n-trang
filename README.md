@@ -16,10 +16,10 @@ Bài lab bám theo luồng hệ thống trong file hướng dẫn: Sender tạo 
 - **Thành viên 2**: Dương Thị Huyền Trang - MSSV: 1871020579
 
 ## Task division
-- **Thành viên 1 phụ trách chính**: Logic mã hóa (des_socket_utils.py), chương trình gửi tin (sender.py) và phân tích rủi ro (threat-model-1page.md).
-- **Thành viên 2 phụ trách chính**: chương trình nhận tin (receiver.py), xây dựng kịch bản kiểm thử (tests/) và xử lý log hệ thống.
-- **Phần làm chung**: Cùng thực hiện chạy Demo, viết báo cáo (report-1page.md) và thực hiện Peer Review.
-
+- **Thành viên 1 phụ trách chính**: Sender (tạo key, IV, mã hóa DES-CBC, gửi dữ liệu). Tham gia phân tích threat model.
+- **Thành viên 2 phụ trách chính**: Receiver (nhận dữ liệu, kiểm tra header, giải mã). Phụ trách tests và logs.
+- **Phần làm chung**: Thiết kế packet, viết report & README, demo hệ thống, thực hiện peer review và bổ sung kiểm thử.
+- 
 ## Demo roles
 - **Bạn nào demo Sender / gói tin / log gửi**: Phạm Ánh Tuyết
 - **Bạn nào demo Receiver / giải mã / log nhận**: Dương Thị Huyền Trang
