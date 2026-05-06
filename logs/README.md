@@ -15,9 +15,27 @@ Danh sách file log
 [10:30:17] Receiver received data
 [10:30:17] Decrypting...
 [10:30:17] Output: Xin chao FIT4012
+
 - `02-happy-path-member2.txt`
+[10:35:10] Receiver started on port 6001
+[10:35:12] Sender connected
+[10:35:13] User: Duong Thi Huyen Trang
+[10:35:13] Input: Hello Lab 3
+
+[10:35:13] Sending data...
+[10:35:14] Receiver decrypted successfully
+[10:35:14] Output: Hello Lab 3
+
 - `03-tamper.txt`
+[10:36:20] Sender sending modified ciphertext
+[10:36:21] Receiver received data
+[ERROR] Padding invalid during decrypt
+
 - `04-wrong-key.txt`
+[10:38:01] Receiver using wrong key
+[10:38:02] Decryption failed
+[ERROR] Invalid padding or corrupted data
+
 - `05-header-error.txt`
 [10:40:02] Receiver started
 [10:40:05] Sender connected
