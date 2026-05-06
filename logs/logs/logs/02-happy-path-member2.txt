@@ -1,8 +1,0 @@
-[10:35:10] Receiver started on port 6001
-[10:35:12] Sender connected
-[10:35:13] User: Duong Thi Huyen Trang
-[10:35:13] Input: Hello Lab 3
-
-[10:35:13] Sending data...
-[10:35:14] Receiver decrypted successfully
-[10:35:14] Output: Hello Lab 3
